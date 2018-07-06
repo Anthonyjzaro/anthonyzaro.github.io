@@ -1,0 +1,55 @@
+
+table#whoa-table td{
+    background-color: rgb(206, 243, 196);
+}
+
+table#awesome-table td {
+    background-color: rgb(158, 247, 217);
+}
+table#awesome-table td:hover {
+    background-color: rgb(248, 228, 192);
+}
+table#super-table td {
+    background-color: purple;
+}
+table#super-table td:hover {
+    background-color: red;
+}
+table#okay-table td {
+    background-color: rgb(4, 128, 0);
+}
+table#okay-table td:hover {
+    background-color: rgb(206, 35, 120);
+}
+table#blah-table td {
+    background-color: rgb(235, 231, 17);
+}
+table#blah-table td:hover {
+    background-color: rgb(206, 46, 35);
+}
+* {
+    color: black;
+}
+.awesome-table {
+    padding: 5px;
+    margin: 5;
+}
+#boxdiv {
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    margin: 10px;
+    padding: 10px;
+    border: 40px solid black;
+    width: 1300px;
+    display:inline-block;
+}
+.twobox {
+    position: fixed;
+    top: 10 px;
+    right: 200px;
+}
+strong {
+    display: block;
+}
