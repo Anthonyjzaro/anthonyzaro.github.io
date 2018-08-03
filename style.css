@@ -1,38 +1,9 @@
 
-table#whoa-table td{
-    background-color: rgba(217, 238, 125, 0.514);
+.img-responsive {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
 }
-
-table#awesome-table td {
-    background-color: rgba(140, 168, 182, 0.445);
-}
-table#awesome-table td:hover {
-    background-color: rgb(248, 228, 192);
-}
-
-* {
-    color: black;
-}
-.awesome-table {
-    padding: 5px;
-    margin: 5;
-}
-#boxdiv {
-    display: flex;
-    justify-content: space-around;
-}
-.box {
-    margin: 10px;
-    padding: 10px;
-    border: 10px solid black;
-    width: 1300px;
-    display:inline-block;
-}
-.twobox {
-    position: fixed;
-    top: 10 px;
-    right: 200px;
-}
-strong {
-    display: block;
+.column1 img {
+    border-style: double;
 }
