@@ -2,8 +2,71 @@
 .img-responsive {
     width: 100%;
     height: auto;
-    max-width: 1400px;
 }
-.column1 img {
-    border-style: double;
+.body{
+    /* background-color:rgba(122, 122, 141, 0.315); */
+    color: rgba(170, 125, 0, 0.979);
+ 
+    
+}
+.column1 img{
+    border-style: solid;
+    border-color: rgba(78, 78, 78, 0.473);
+    border-width: 5px;
+    border-radius: 25px;
+    margin-top: 65px;
+    max-width: 450px;
+
+}
+
+
+ .work {
+     background-color: rgba(179, 177, 177, 0.082);
+     padding: 10px;
+     border-style: solid;
+     
+ }
+ .education {
+     background-color: rgb(179, 177, 177, 0.082);
+     padding: 10px;
+     border-style: solid;
+ }
+ .projects {
+    background-color: rgba(179, 177, 177, 0.082);
+    padding: 10px;
+    border-style: solid;
+ }
+ .tech {
+    background-color: rgba(179, 177, 177, 0.082);
+    padding: 10px;
+    border-style: solid;
+ }
+ .recent {
+     color: rgb(156, 156, 156);
+ }
+ .aboutMe {
+     color: rgb(156, 156, 156);
+ }
+h2 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+p  {
+    color: rgba(255, 255, 255, 0.658);
+
+}
+footer img*{
+    margin-top: 50px;
+    width: 100%;
+ }
+.allNav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+techList *{
+    color: white;
 }
