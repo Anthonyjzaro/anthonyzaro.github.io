@@ -21,7 +21,7 @@
   <body style= "background-image:url(images/dawndusk.jpg); background-size:cover; background-position:bottom; background-attachment:fixed;">
 
     <nav class="navbar navbar-expand-sm navbar-dark">
-      <a class="navbar-brand" href="#" style="font-weight:bold;font-size:35px;letter-spacing: 3px;">Software Developer</a>
+      <a class="navbar-brand" href="#" style="font-weight:bold;font-size:2vw;letter-spacing: 3px;">Software Developer</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -80,7 +80,7 @@
       height: 100%;
   }
   
-  #Home {background-color: rgba(158, 114, 114, 0.397);}
+  #Skills {background-color: rgba(158, 114, 114, 0.397);}
   #News {background-color: rgba(104, 212, 104, 0.24);}
   #Contact {background-color: rgba(214, 106, 18, 0.397);}
   #About {background-color: rgba(81, 0, 128, 0.514);}
@@ -88,41 +88,49 @@
   </head>
   <body>
   
-  <button class="tablink" onclick="openPage('Home', this, 'rgba(158, 114, 114, 0.397')"id="defaultOpen">Home</button>
+  <button class="tablink" onclick="openPage('Skills', this, 'rgba(158, 114, 114, 0.397')">Skills</button>
   <button class="tablink" onclick="openPage('News', this, 'rgba(104, 212, 104, 0.24)')" >News</button>
   <button class="tablink" onclick="openPage('Contact', this, ' rgba(214, 106, 18, 0.397')">Contact</button>
-  <button class="tablink" onclick="openPage('About', this, 'rgba(81, 0, 128, 0.514')">About</button>
+  <button class="tablink" onclick="openPage('About', this, 'rgba(81, 0, 128, 0.514')"id="defaultOpen">About</button>
   
-  <div id="Home" class="tabcontent">
-    <div class="techSkills">
-    <h1 style="font-weight: bolder;">Technical Skills</h1>
-   <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups" style="width: 100%;">
-        <div class="btn-group mr-2" role="group" aria-label="First group">
-            <script>
-                $(document).ready(function(){
-                    $("button").click(function(){
-                        $("#div1").fadeToggle("slow");
-                    });
-                });
-                </script>
-          <div class="buttonTech">
-          <button type="button" class="btn btn-secondary">Git</button>
-          <button type="button" class="btn btn-secondary">Java</button>
-          <button type="button" class="btn btn-secondary">HTML5</button>
-          <button type="button" class="btn btn-secondary">CSS</button>
-          <button type="button" class="btn btn-secondary">JavaScript</button>
-          <button type="button" class="btn btn-secondary">Photoshop</button>
-          <button type="button" class="btn btn-secondary">SQL</button>
-          <button type="button" class="btn btn-secondary">Bootstrap</button>
-        </div>
-               <div id="div1">
-              <p>I used Git for version control</p>
-            </div>
-        </div>
-      </div>
-    <!-- <p> Git	• Java • HTML5 • CSS • JavaScript • Photoshop • Illustrator • SQL • Bootstrap • Spring MVC</p> -->
+  <div id="Skills" class="tabcontent">
+      <h1>Technical Skills</h1>
+      <div class="techSkills">
+          
+           <h2>Java 
+           <strong>JavaScript </strong>
+           Git
+           <strong>HTML5</strong>
+           CSS
+           <strong>Bootstrap</strong></h2>
+           <div class="container">
+           <div class="text-block">
+           <p>
+              <strong>PROJECTS</strong><br>
+            <strong>Medical Scheduling App (Patient Connect)</strong> -- <em>​Java / SpringMVC / JSP / CSS / HTML / JavaScript / Bootstrap / SQL </em>  <br>
+              ​• Designed a web application that allowed a user to schedule appointments with doctors using Java (Spring MVC) <br>
+              • Structured a database using PostGreSQL and DbVisualizer to log all patients, doctors and administrations info <br>
+              • Fashioned a aesthetically pleasing and user-friendly UI using HTML, CSS, Bootstrap, and JavaScript <br>
+             
+              <strong>Park Application</strong> <em> -- ​Java / SpringMVC / SQL</em> <br>
+              ​• Used Java and Spring framework to implement a program that enabled users
+               to navigate and reserve spots at a campsite <br>
+              • Built an in-console interface that captured any user input and logged all transactions<br>
+
+
+              <strong>National Parks Web Page</strong> <em>-- ​Java / SpringMVC / JSP / CSS / HTML / JavaScript / Bootstrap / SQL</em><br>
+              ​• Programmed an entire webpage using Spring MVC including, Java, HTML, CSS, Bootstrap, JSP and SQL<br>
+              • Used Heroku server to post live webpage<br>
+            
+              <strong>Vending Machine CPI</strong> <em>-- ​Java</em> <br>
+              ​• Used Java to build an application to take incoming and outgoing funds for a vending machine <br>
+              • Implemented all the info using File Input/Output to create logs of all transactions within the application
+           </p>
+          </div>
+          </div>
     </div>
   </div>
+ 
   
   <div id="News" class="tabcontent">
     <h1>News</h1>
@@ -131,7 +139,9 @@
   
   <div id="Contact" class="tabcontent">
     <h1>Contact</h1>
-    <p>Get in touch, or swing by for a cup of coffee.</p>
+    <p>Email: Anthonyjzaro@gmail.com</p>
+    <p>Phone Number: (216) 551-2084</p>
+    <p>Linked In: https://www.linkedin.com/in/anthony-zaro</p>
   </div>
   
   <div id="About" class="tabcontent">
@@ -147,7 +157,7 @@
       Programming has changed work into an adventure, one that I am currently excited to continue.</p>
     </div>
     <div class="myPhoto">
-        <img src="images/me1.jpg" alt="myPhoto" align="left">
+        <img src="images/me1.jpg" alt="myPhoto">
       </div>
   </div>
 
@@ -170,6 +180,7 @@
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
   </script>
+  
        
   </body>
   </body>
