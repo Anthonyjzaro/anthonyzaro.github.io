@@ -20,6 +20,19 @@
     src: url(ostrich-sans-master/OstrichSans-Light.otf);
 }
 
+.head img {
+    width: 100%;
+    max-width: 100px;
+    opacity: .6;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    float: right;
+    margin: 10px;
+}
+
+                        /* ABOUT */
 .about {
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -34,32 +47,7 @@
     border-left-color: white;
     border-left-width: 1px;
     padding-left: 20px;
-    float: left;
-}
-.myPhoto img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    opacity: .6;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: white;
-    border-width: 10px;
-    float: right;
-    margin-right: 200px;
-}
-
-.myPhoto img{
-    border-radius: 50%;
-    max-width: 200px;
-    width: 50%;
-}
-
-
-.tabcontent h1 {
-    font-weight: bolder;
-    text-align: center;
-    letter-spacing: 3px;
+    margin-right: 25%;
 }
 
 /* TECH SKILLS */
@@ -97,14 +85,30 @@
     font-weight: lighter;
 
 }
-#Contact {
-    font-size: 2vw;
-    font-weight: bolder;
-    letter-spacing: 3px;
-}
 .techSkills p Strong {
     font-size: 2.5rem;
     font-family: myFirstFont;
     src: url(ostrich-sans-master/OstrichSans-Light.otf);
     font-weight: bold;
+}
+.tabcontent h1 {
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 3px;
+}
+            /* contact */
+
+
+#Contact {
+    font-size: 2vw;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.contactInfo{
+    background-color: black;
+    opacity: .7;
+    padding-left: 10px;
+    width: 100%;
+
 }
