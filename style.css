@@ -15,13 +15,6 @@
     font-weight:bold;
 }
 
-.navbar-brand {
-    padding-bottom: 0;
-    border-bottom-color: white;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-
-}
 
 @font-face {
     font-family: myFirstFont;
