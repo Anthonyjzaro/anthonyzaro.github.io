@@ -8,11 +8,18 @@
     src: url(ostrich-sans-master/OstrichSansRounded-Medium.otf);
     font-size: 6vw;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: .8ex;
     margin-bottom: 0px;
     width: 100%;
     max-width: 1518;
     font-weight:bold;
+}
+
+.navbar-brand {
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
 }
 
 @font-face {
@@ -56,8 +63,7 @@
     text-align: center;
     width: 100%;
     background-position: center;
-    background-color: black;
-    opacity: .5;
+    background-color: rgba(255, 0, 0, .5);
     padding-bottom: 200px;;
 }
 
@@ -111,4 +117,43 @@
     padding-left: 10px;
     width: 100%;
 
+}
+
+                                   /* PORTFOLIO */
+
+.carousel-inner img {
+    max-width: 35%;
+    max-height: 35%;
+    margin: auto;
+    margin-bottom: 300px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.port-header {
+    letter-spacing: 1ex;
+    max-width: 300px;
+    opacity: .8;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.port-header h2{
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgba(255, 0, 0, 0.863);
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+                                    /* CONTACT INFO */
+
+
+.contactInfo {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contactInfo img {
+    max-width: 300px;
 }
