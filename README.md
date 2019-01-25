@@ -1,2 +1,2 @@
-# anthonyzaro.github.io
+# anthonyzaro
 Anthony's portfolio page
