@@ -1,2 +1,2 @@
 # anthonyzaro.github.io
-Anthony's Github page
+Anthony's portfolio page
